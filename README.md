@@ -1,5 +1,5 @@
 # eBayHideSponsored
-Google Chrome extension to hide sponsored listings from search results on eBay.com
+Google Chrome extension to hide sponsored listings from search results on eBay.
 
 To install:
 1) Download and unzip the code.
