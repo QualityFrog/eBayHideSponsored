@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "eBay Hide Sponsored",
+  "description": "This extension will hide sponsored listings in eBay search results.",
+  "version": "1.0",
+
+  "permissions": [
+   "activeTab" 
+ ],
+ "content_scripts": [
+    {
+      "run_at" :"document_idle",
+      "matches": ["https://*.ebay.com/sch/*"],
+      "js": ["hideSponsored.js"]
+    }
+  ]
+}
