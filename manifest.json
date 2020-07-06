@@ -18,7 +18,8 @@
         "https://*.ebay.at/sch/*",
         "https://*.ebay.de/sch/*",
         "https://*.ebay.es/sch/*",
-        "https://*.ebay.co.uk/sch/*"
+        "https://*.ebay.co.uk/sch/*",
+        "https://*.ebay.be/sch/*"
       ],
       "js": ["hideSponsored.js"]
     }
