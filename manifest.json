@@ -1,14 +1,21 @@
 {
   "manifest_version": 2,
 
-  "name": "eBay Hide Sponsored",
-  "description": "This extension will hide sponsored listings in eBay search results.",
-  "version": "1.1",
+  "name": "Hide Marketplace Ads",
+  "description": "This extension will hide sponsored listings in eBay and etsy search results.",
+  "version": "1.2",
 
   "permissions": [
    "activeTab"
  ],
  "content_scripts": [
+    {
+      "run_at" :"document_idle",
+      "matches": [
+        "https://*.etsy.com/search*"
+      ],
+      "js": ["etsy.js"]
+    },
     {
       "run_at" :"document_idle",
       "matches": [
@@ -21,7 +28,7 @@
         "https://*.ebay.co.uk/sch/*",
         "https://*.ebay.be/sch/*"
       ],
-      "js": ["hideSponsored.js"]
+      "js": ["eBay.js"]
     }
   ]
 }

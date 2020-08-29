@@ -1,5 +1,5 @@
-# eBayHideSponsored
-Google Chrome extension to hide sponsored listings from search results on eBay.
+# hideMarketplaceAds
+Google Chrome extension to hide sponsored listings from search results on eBay and etsy.
 
 To install:
 1) Download and unzip the code.
